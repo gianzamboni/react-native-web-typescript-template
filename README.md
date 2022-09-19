@@ -24,3 +24,8 @@ After setting up the gradle properties, run `npm run build:android` to generate 
 To install the bundled app on a connected device or a simulator run `npm run install:android`.
 
 Once tested, you can upload the bundle to [Google Play Console](https://play.google.com/console).
+
+## TODO
+
+- Add npm web building scripts
+- Add rename project scripts
