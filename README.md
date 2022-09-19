@@ -1,12 +1,7 @@
 # React Native Web With Typescript
-
-===================================
-
 This is a basic template that setups React Native with typescript and web support using webpack.
 
 ## Usage
-
-===================================
 In order to use this template, you need to follow the [React Native setup guide](https://reactnative.dev/docs/environment-setup) first.
 
 After that, you should run `npm install`.
@@ -19,9 +14,7 @@ And in another terminal one of the following:
 - `npm run android`
 
 ## Production Build
-
 ### Android
-
 Before building for android, run `npm run generate-release-signature` to generate the keys to signe your app. This is needed to upload the app bundle to the app store.
 
 Then open `android/app/gradle.properties` and update it with the password you setted in the previous step.
