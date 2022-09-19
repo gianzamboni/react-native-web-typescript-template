@@ -26,4 +26,8 @@ Before building for android, run `npm run generate-release-signature` to generat
 
 Then open `android/app/gradle.properties` and update it with the password you setted in the previous step.
 
-After setting up the gradle properties, run `npm run build:android` to generate the bundle.
+After setting up the gradle properties, run `npm run build:android` to generate the bundle. It will be saved on `android/app/build/outputs/bundle/release`
+
+To install the bundled app on a connected device or a simulator run `npm run install:android`.
+
+Once tested, you can upload the bundle to [Google Play Console](https://play.google.com/console).
