@@ -19,3 +19,11 @@ And in another terminal one of the following:
 - `npm run android`
 
 ## Production Build
+
+### Android
+
+Before building for android, run `npm run generate-release-signature` to generate the keys to signe your app. This is needed to upload the app bundle to the app store.
+
+Then open `android/app/gradle.properties` and update it with the password you setted in the previous step.
+
+After setting up the gradle properties, run `npm run build:android` to generate the bundle.

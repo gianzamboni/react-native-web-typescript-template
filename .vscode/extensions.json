@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "vinicioslc.adb-interface-vscode",
+    "hanwang.android-adb-wlan",
+    "aakashp.adb-qr",
+    "dsznajder.es7-react-js-snippets",
+    "dbaeumer.vscode-eslint",
+    "vscjava.vscode-java-pack",
+    "vscjava.vscode-gradle",
+    "msjsdiag.vscode-react-native"
+  ]
+}
