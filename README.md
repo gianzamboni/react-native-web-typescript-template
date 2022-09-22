@@ -8,12 +8,13 @@ In order to use this template, you need to follow the [React Native setup guide]
 
 After that, you should run `npm install`.
 
-To run in development mode run `npm run start`.
+To run in development mode on Android or IOS run `npm run start`.
 And in another terminal one of the following:
 
-- `npm run web`
 - `npm run ios`
 - `npm run android`
+
+To run in development mode on Web just run `npm run web`.
 
 ## Production Build
 
@@ -29,9 +30,12 @@ To install the bundled app on a connected device or a simulator run `npm run ins
 
 Once tested, you can upload the bundle to [Google Play Console](https://play.google.com/console).
 
-Take in consideration that the generated bundle has obfuscated code, you should upload `android/app/build/outputs/mapping/release/mapping.txt`. This will allow you see the original strack trace for user-reported issues in the Play Console.
+Take in consideration that the generated bundle has obfuscated code, you should also upload `android/app/build/outputs/mapping/release/mapping.txt`. This will allow you see the original strack trace for user-reported issues in the Play Console.
+
+### WEB
+
+In order to build for web just run `npm run build:web`. The compiled applicatión site will be stored in `dist` folder.
 
 ## TODO
 
-- Add npm web building scripts
 - Add rename project scripts

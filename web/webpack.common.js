@@ -1,19 +1,16 @@
 const path = require('path');
-const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const rootDir = path.join(__dirname, '..');
-const webpackEnv = process.env.NODE_ENV || 'development';
 
 module.exports = {
-  mode: webpackEnv,
   entry: {
     app: path.join(__dirname, './index.ts'),
   },
   output: {
     path: path.resolve(rootDir, 'dist'),
     filename: 'app-[hash].bundle.js',
+    chunkFilename: '[name].chunk.js',
   },
-  devtool: 'source-map',
   module: {
     rules: [
       {
@@ -27,7 +24,6 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: path.join(__dirname, './index.html'),
     }),
-    new webpack.HotModuleReplacementPlugin(),
   ],
   resolve: {
     extensions: [
