@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "lifeSolver.app"
-               BlueprintName = "lifeSolver"
-               ReferencedContainer = "container:lifeSolver.xcodeproj">
+               BuildableName = "basicTemplate.app"
+               BlueprintName = "basicTemplate"
+               ReferencedContainer = "container:basicTemplate.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "lifeSolverTests.xctest"
-               BlueprintName = "lifeSolverTests"
-               ReferencedContainer = "container:lifeSolver.xcodeproj">
+               BuildableName = "basicTemplateTests.xctest"
+               BlueprintName = "basicTemplateTests"
+               ReferencedContainer = "container:basicTemplate.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "lifeSolver.app"
-            BlueprintName = "lifeSolver"
-            ReferencedContainer = "container:lifeSolver.xcodeproj">
+            BuildableName = "basicTemplate.app"
+            BlueprintName = "basicTemplate"
+            ReferencedContainer = "container:basicTemplate.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "lifeSolver.app"
-            BlueprintName = "lifeSolver"
-            ReferencedContainer = "container:lifeSolver.xcodeproj">
+            BuildableName = "basicTemplate.app"
+            BlueprintName = "basicTemplate"
+            ReferencedContainer = "container:basicTemplate.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
