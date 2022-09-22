@@ -2,11 +2,17 @@
 
 This is a basic template that setups React Native with typescript and web support using webpack.
 
-## Usage
-
 In order to use this template, you need to follow the [React Native setup guide](https://reactnative.dev/docs/environment-setup) first.
 
 After that, you should run `npm install`.
+
+### Rename the project
+
+After installing all dependencies, you should run `npx react-native-rename <name_of_you_project> -b <name_of_package>` to change the project name from "reactNativeWebTypescriptTemplate" to whatever you like. For example:
+
+`npx react-native-rename myProject -b com.myOrganizationName.myProyect`
+
+## Development with hot reload
 
 To run in development mode on Android or IOS run `npm run start`.
 And in another terminal one of the following:
@@ -35,7 +41,3 @@ Take in consideration that the generated bundle has obfuscated code, you should 
 ### WEB
 
 In order to build for web just run `npm run build:web`. The compiled applicatión site will be stored in `dist` folder.
-
-## TODO
-
-- Add rename project scripts

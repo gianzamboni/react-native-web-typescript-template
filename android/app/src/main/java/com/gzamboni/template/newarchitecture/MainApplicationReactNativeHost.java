@@ -1,4 +1,4 @@
-package com.lifesolver.newarchitecture;
+package com.gzamboni.template.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.lifesolver.BuildConfig;
-import com.lifesolver.newarchitecture.components.MainComponentsRegistry;
-import com.lifesolver.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.gzamboni.template.BuildConfig;
+import com.gzamboni.template.newarchitecture.components.MainComponentsRegistry;
+import com.gzamboni.template.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

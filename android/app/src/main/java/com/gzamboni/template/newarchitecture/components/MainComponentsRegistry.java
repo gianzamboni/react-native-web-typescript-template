@@ -1,4 +1,4 @@
-package com.lifesolver.newarchitecture.components;
+package com.gzamboni.template.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;

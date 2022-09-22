@@ -1,4 +1,4 @@
-package com.lifesolver.newarchitecture.modules;
+package com.gzamboni.template.newarchitecture.modules;
 
 import com.facebook.jni.HybridData;
 import com.facebook.react.ReactPackage;
